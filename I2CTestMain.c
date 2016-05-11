@@ -8,8 +8,8 @@
 // Modified Valvano's Code according to the video:
 // https://www.youtube.com/watch?v=A7PUM9wPUAw
 
-// I2C0SCL connected to PB2 and to pin 2 of MCP23008 (I2C type shift register / port extender)
-// I2C0SDA connected to PB3 and to pin 1 of MCP23008
+// I2C0SCL connected to PB2 and to pin 1 of MCP23008 (I2C type shift register / port extender)
+// I2C0SDA connected to PB3 and to pin 2 of MCP23008
 // SCL and SDA lines pulled to +3.3 V with 3.8K resistors 
 
 #include <stdint.h>
